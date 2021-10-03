@@ -41,7 +41,7 @@
 	\end{itemize}
 \end{battle}
 \begin{enumerate}[resume]
-	\item If anyone is Critical HP, use Potions.
+	\item If anyone is under 250 HP, use Potions.
 	\item Do the below Sphere Grid if \tidus\ has 5 S.Levels.
 	\item Run right. 
 \end{enumerate}
@@ -141,19 +141,30 @@
 \bothvfill\winvfill\lossvfill
 \begin{battle}{Sahagin Chief}
 	\begin{itemize}
-		\item{If no Lightning Steel:}
-		      \begin{itemize}
-			      \tidusf Haste \tidus
-			      \wakkaf Attack one Sahagin for the first two waves, defend on the third wave
-			      \tidusf Attack the other Sahagin
-			      \wakkaf Potion if \tidus\ has less than 156 HP
-		      \end{itemize}
 		\item{If Lightning Steel:}
 		      \begin{itemize}
-			      \tidusf Haste \tidus
+			      \tidusf Haste \tidus\
+			      \tidusf Cheer x3
 			      \wakkaf Attack
+			      \tidusf Haste \tidus\
 			      \tidusf Attack
 		      \end{itemize}
+		\item{If Thunderball and no Lightning Steel:}
+		      \begin{itemize}
+			      \tidusf Cheer
+			      \wakkaf Attack
+			      \tidusf Haste \tidus\,then \wakka
+			      \tidusf Attack
+		      \end{itemize}
+		\item{Else:}
+		      \begin{itemize}
+			      \tidusf Haste \tidus\
+			      \tidusf Cheer x5
+			      \wakkaf Attack
+			      \tidusf Haste \tidus\
+			      \tidusf Attack
+		      \end{itemize}	      
+	\wakkaf Potion if \tidus\ has less than 156 HP
 	\end{itemize}
 	Guaranteed 17 Power Spheres. Each Overkill is +1 Power Sphere
 \end{battle}
