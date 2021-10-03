@@ -1,2 +1,2 @@
-# Final Fantasy Speedruns
- Final Fantasy Speedrun Notes
+# Final Fantasy X Speedrun
+ Final Fantasy X Speedrun Notes
