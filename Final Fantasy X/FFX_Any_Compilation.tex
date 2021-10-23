@@ -24,6 +24,9 @@
 \usepackage[default]{sourcesanspro}
 \usepackage[T1]{fontenc}
 
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -128,35 +131,132 @@
 \newcommand{\formation}[3]{\textcolor{Mulberry}{\textbf{Formation: }}#1, #2, #3}
 
 
-\newcommand{\lulu}{\textbf{\textcolor{purple}{Lulu}}}
-\newcommand{\yuna}{\textbf{\textcolor{gray}{Yuna}}}
-\newcommand{\auron}{\textbf{\textcolor{red}{Auron}}}
-\newcommand{\tidus}{\textbf{\textcolor{blue}{Tidus}}}
-\newcommand{\wakka}{\textbf{\textcolor{BurntOrange}{Wakka}}}
-\newcommand{\rikku}{\textbf{\textcolor{ForestGreen}{Rikku}}}
-\newcommand{\kimahri}{\textbf{\textcolor{Tan}{Kimahri}}}
+\newcommand{\lulu}{\textbf{\textcolor{purple}{Lulu (露露)}}}
+\newcommand{\yuna}{\textbf{\textcolor{gray}{Yuna (優娜)}}}
+\newcommand{\auron}{\textbf{\textcolor{red}{Auron (奧隆)}}}
+\newcommand{\tidus}{\textbf{\textcolor{blue}{Tidus (提逹)}}}
+\newcommand{\wakka}{\textbf{\textcolor{BurntOrange}{Wakka (瓦长)}}}
+\newcommand{\rikku}{\textbf{\textcolor{ForestGreen}{Rikku (琉克)}}}
+\newcommand{\kimahri}{\textbf{\textcolor{Tan}{Kimahri (塞馬利)}}}
 
-\newcommand{\luluf}{\item \textbf{\textcolor{purple}{Lulu}}: }
-\newcommand{\yunaf}{\item \textbf{\textcolor{gray}{Yuna}}: }
-\newcommand{\auronf}{\item \textbf{\textcolor{red}{Auron}}: }
-\newcommand{\tidusf}{\item \textbf{\textcolor{blue}{Tidus}}: }
-\newcommand{\wakkaf}{\item \textbf{\textcolor{BurntOrange}{Wakka}}: }
-\newcommand{\rikkuf}{\item \textbf{\textcolor{ForestGreen}{Rikku}}: }
-\newcommand{\kimahrif}{\item \textbf{\textcolor{Tan}{Kimahri}}: }
+\newcommand{\luluf}{\item \textbf{\textcolor{purple}{Lulu (露露)}}: }
+\newcommand{\yunaf}{\item \textbf{\textcolor{gray}{Yuna (優娜)}}: }
+\newcommand{\auronf}{\item \textbf{\textcolor{red}{Auron (奧隆)}}: }
+\newcommand{\tidusf}{\item \textbf{\textcolor{blue}{Tidus (提逹)}}: }
+\newcommand{\wakkaf}{\item \textbf{\textcolor{BurntOrange}{Wakka (瓦长)}}: }
+\newcommand{\rikkuf}{\item \textbf{\textcolor{ForestGreen}{Rikku (琉克)}}: }
+\newcommand{\kimahrif}{\item \textbf{\textcolor{Tan}{Kimahri (塞馬利)}}: }
 \newcommand{\enemyf}{\item \textbf{\textcolor{RubineRed}{Enemy}}: }
-\newcommand{\valeforf}{\item \textbf{\textcolor{Salmon}{Valefor}}: }
-\newcommand{\bahamutf}{\item \textbf{\textcolor{RoyalPurple}{Bahamut}}: }
-\newcommand{\ixilonf}{\item \textbf{\textcolor{Lavender}{Ixion}}: }
-\newcommand{\ifritf}{\item \textbf{\textcolor{OrangeRed}{Ifrit}}: }
-\newcommand{\shivaf}{\item \textbf{\textcolor{Cyan}{{Shiva}}}: }
+\newcommand{\valeforf}{\item \textbf{\textcolor{Salmon}{Valefor (first)}}: }
+\newcommand{\bahamutf}{\item \textbf{\textcolor{RoyalPurple}{Bahamut (fifth)}}: }
+\newcommand{\ixilonf}{\item \textbf{\textcolor{Lavender}{Ixion (third)}}: }
+\newcommand{\ifritf}{\item \textbf{\textcolor{OrangeRed}{Ifrit} (second)}: }
+\newcommand{\shivaf}{\item \textbf{\textcolor{Cyan}{{Shiva} (forth)}}: }
 \newcommand{\switch}[2]{\item Switch #1 for #2}
 \newcommand{\summon}[1]{\yunaf Summon #1}
 
-\newcommand{\valefor}{\textbf{\textcolor{Salmon}{Valefor}}}
-\newcommand{\ixilon}{\textbf{\textcolor{Lavender}{Ixion}}}
-\newcommand{\shiva}{\textbf{\textcolor{Cyan}{Shiva}}}
-\newcommand{\bahamut}{\textbf{\textcolor{RoyalPurple}{Bahamut}}}
-\newcommand{\ifrit}{\textbf{\textcolor{OrangeRed}{Ifrit}}}
+\newcommand{\valefor}{\textbf{\textcolor{Salmon}{Valefor (first)}}}
+\newcommand{\ixilon}{\textbf{\textcolor{Lavender}{Ixion (third)}}}
+\newcommand{\shiva}{\textbf{\textcolor{Cyan}{Shiva (forth)}}}
+\newcommand{\bahamut}{\textbf{\textcolor{RoyalPurple}{Bahamut (fifth)}}}
+\newcommand{\ifrit}{\textbf{\textcolor{OrangeRed}{Ifrit (second)}}}
+
+\newcommand{\steal}{\textbf{Steal (盜取)}}
+\newcommand{\flee}{\textbf{Flee (遁逃)}}
+\newcommand{\use}{\textbf{Use (使用)}}
+\newcommand{\lancet}{\textbf{Lancet (龍劍)}}
+\newcommand{\cheer}{\textbf{Cheer (激勵)}}
+
+\newcommand{\darkattack}{\textbf{Dark Attack}}
+\newcommand{\powerbreak}{\textbf{Power Break}}
+\newcommand{\armorbreak}{\textbf{Armor Break}}
+\newcommand{\sparechange}{\textbf{Spare Change}}
+\newcommand{\zombieattack}{\textbf{Zombie Attack}}
+
+
+\newcommand{\fire}{\textbf{Fire (upper left)}}
+\newcommand{\thunder}{\textbf{Thunder (upper right)}}
+\newcommand{\water}{\textbf{Water (lower left)}}
+\newcommand{\blizzard}{\textbf{Blizzard (lower right)}}
+
+\newcommand{\haste}{\textbf{Haste}}
+\newcommand{\impulse}{\textbf{Impulse (second)}}
+
+\newcommand{\seedcannon}{\textbf{Seed Cannon (橦子大佨)}}
+\newcommand{\selfdestruct}{\textbf{Self Destruct (自爆)}}
+\newcommand{\stonebreath}{\textbf{Stone Breath (石化吐息)}}
+
+
+\newcommand{\icebrand}{\textbf{Ice Brand (冰凍烙印)}}
+\newcommand{\iceball}{\textbf{Ice Ball (冰凍炸彈)}}
+\newcommand{\lightningsteel}{\textbf{Lightning Steel (庆電蒼刃)}}
+\newcommand{\thunderball}{\textbf{Thunder Ball (雷電炸彈)}}
+\newcommand{\brotherhood}{\textbf{Brotherhood (兄弟會)}}
+\newcommand{\officialball}{\textbf{Official Ball (爪)}}
+\newcommand{\yellowshield}{\textbf{Yellow Shield (雷電盾)}}
+\newcommand{\sonicsteel}{\textbf{Sonic Steel (音速刃)}}
+
+\newcommand{\scout}{\textbf{Scout}}
+\newcommand{\huntersspear}{\textbf{Hunter's Spear}}
+\newcommand{\longsword}{\textbf{Long Sword}}
+\newcommand{\sentry}{\textbf{Sentry}}
+\newcommand{\powerball}{\textbf{Power Ball}}
+\newcommand{\katana}{\textbf{Katana}}
+\newcommand{\shimmeringblade}{\textbf{Shimmering Blade}}
+\newcommand{\staff}{\textbf{Staff}}
+\newcommand{\sonicblade}{\textbf{Sonic Blade}}
+
+
+\newcommand{\potion}{\textbf{Potion (治療劑)}}
+\newcommand{\xpotion}{\textbf{X-Potion (至高治療劑)}}
+\newcommand{\elixir}{\textbf{Elixir (萬靈藥)}}
+\newcommand{\megapotion}{\textbf{Mega Potion (百萬治療劑)}}
+\newcommand{\hipotion}{\textbf{Hi-Potion}}
+\newcommand{\remedy}{\textbf{Remedy (萬能藥)}}
+\newcommand{\soft}{\textbf{Soft (金針)}}
+\newcommand{\phoenixdown}{\textbf{Phoenix Down (鳳凰尾巴)}}
+\newcommand{\megaphoenix}{\textbf{Mega Phoenix (百萬鳳凰尾巴)}}
+
+
+
+\newcommand{\grenade}{\textbf{Grenade (手榴彈)}}
+\newcommand{\petrifygrenade}{\textbf{Petrify Grenade (石化手榴彈)}}
+\newcommand{\lunarcurtain}{\textbf{Lunar Curtain (月-箳幕 )}}
+\newcommand{\bombcore}{\textbf{Bomb Core (炸彈磈魄)}}
+\newcommand{\lightningmarble}{\textbf{Lightning Marble (落雷玉)}}
+\newcommand{\fishscale}{\textbf{Fish Scale (魚䲑)}}
+\newcommand{\arcticwind}{\textbf{Arctic Wind (北極之風)}}
+\newcommand{\silencegrenade}{\textbf{Silence Grenade (沉默佈雷)}}
+\newcommand{\farplaneshadow}{\textbf{Farplane Shadow (異界-影)}}
+\newcommand{\sleepingpowder}{\textbf{Sleeping Powder (睡眠秎末)}}
+\newcommand{\smokebomb}{\textbf{Smoke Bomb (煙霧炸彈)}}
+\newcommand{\firegem}{\textbf{Fire Gem (炎之魔石)}}
+\newcommand{\watergem}{\textbf{Water Gem (水之魔石)}}
+\newcommand{\map}{\textbf{Map (地圖)}}
+
+\newcommand{\lightcurtain}{\textbf{Light Curtain}}
+
+\newcommand{\powersphere}{\textbf{Power Sphere (力量幻光球)}}
+\newcommand{\manasphere}{\textbf{Mana Sphere (魔法幻光球)}}
+\newcommand{\speedsphere}{\textbf{Speed Sphere (洓度幻光球)}}
+\newcommand{\abilitysphere}{\textbf{Ability Sphere (技能幻光球)}}
+\newcommand{\strengthsphere}{\textbf{Strength Sphere (坆撀刀幻光球)}}
+\newcommand{\magicsphere}{\textbf{Magic Sphere (魔刀幻光球)}}
+\newcommand{\magdefsphere}{\textbf{Magic Def Sphere (魔法防禦幻光球)}}
+\newcommand{\hpsphere}{\textbf{HP Sphere (HP幻光球)}}
+\newcommand{\lucksphere}{\textbf{Luck Sphere (運氣幻光球)}}
+\newcommand{\blackmagsphere}{\textbf{Blk. Magic Sphere (黑魔法幻光球)}}
+\newcommand{\specialsphere}{\textbf{Special Sphere (特殊幻光球)}}
+\newcommand{\teleportsphere}{\textbf{Teleport Sphere (俦送幻光球)}}
+\newcommand{\returnsphere}{\textbf{Return Sphere (歸返幻光球)}}
+\newcommand{\friendsphere}{\textbf{Friend Sphere (好友幻光球)}}
+\newcommand{\fortunesphere}{\textbf{Fortune Sphere}}
+\newcommand{\skillsphere}{\textbf{Skill Sphere}}
+
+\newcommand{\attributesphere}{\textbf{Attribute Sphere (參數幻光球)}}
+\newcommand{\powerdistiller}{\textbf{Power Distiller (力量之記憶)}}
+
+
 
 
 
@@ -267,7 +367,7 @@
 
 \section*{Acknowledgements}
 
-CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama
+CloseToWar, Flobberworm, Roosta, Keeano, TheMixedHerb, Madhyama, camp4r
 \newpage
 
 
