@@ -8,7 +8,6 @@
 \usepackage[margin=0.2in]{geometry}
 \usepackage{xstring}
 \usepackage{xifthen}
-\usepackage[dvipsnames]{xcolor}
 \usepackage{setspace}
 \usepackage{amsmath}
 \usepackage{enumitem}
@@ -21,8 +20,9 @@
 \usepackage{etoolbox}
 \usepackage{titlepic}
 \usepackage[super]{nth}
-\usepackage{setspace}
 \usepackage[document]{ragged2e}
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
 
 \hypersetup{
     colorlinks,
@@ -32,8 +32,6 @@
     urlcolor=black
 }
 
-\usepackage[default]{sourcesanspro}
-\usepackage[T1]{fontenc}
 
 \makeatletter
 \def\@makechapterhead#1{%
@@ -59,9 +57,8 @@
 \newcommand{\blitzwin}{\textbf{\textcolor{OliveGreen}{Blitz Win}}}
 \newcommand{\wonblitz}{\textbf{\textcolor{OliveGreen}{won Blitz}}}
 
-\usepackage{enumitem}
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
-\usepackage{graphicx}
+
 \ifthenelse{%
 		\equal{\blitzresult}{win}
 	}{%
